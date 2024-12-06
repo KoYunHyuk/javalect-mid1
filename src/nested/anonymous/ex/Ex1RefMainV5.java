@@ -11,7 +11,6 @@ public class Ex1RefMainV5 {
     }
 
     public static void main(String[] args) {
-
         hello(() -> {
             int randomValue = new Random().nextInt(6) + 1;
             System.out.println("주사위 = " + randomValue);
